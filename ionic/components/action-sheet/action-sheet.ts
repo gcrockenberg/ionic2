@@ -184,7 +184,7 @@ class ActionSheetCmp {
   }
 
   dismiss() {
-    this._viewCtrl.dismiss();
+    return this._viewCtrl.dismiss();
   }
 
   onPageLoaded() {
